@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>social blog site </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <!-- =============================== nav bar ============================ -->
+
+
+        <i class="fa-solid fa-bars menu"></i> 
+
+        <div class="menu-div">
+                <a href="#" class="acti menu-a">home</a>
+                <a href="#" class="menu-a">explore</a>
+                <a href="#" class="menu-a">notification</a>
+                <a href="#" class="menu-a">messages</a>
+                <a href="#" class="menu-a">bookmark</a>
+                <a href="#" class="menu-a">analytics</a>
+                <a href="#" class="menu-a">theme</a>
+                <a href="#" class="menu-a">settings</a>
+        </div>
+
+    <nav>
+        <div class="logo">
+            <h2>aj social</h2>
+        </div>
+
+        <div class="search-box">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="text" name="text" id="" placeholder="search for creators, etc...">
+        </div>
+
+        <div class="head-user">
+            <label for="create" class="btn">create</label>
+            <img src="assets/profile-1.jpg" alt="profile-1">
+        </div>
+
+    </nav>
+
+
+    <!-- ================================= main section ==================================== -->
+
+    <div class="main">
+
+        <div class="left">
+
+            <div class="profile ">
+                <div class="img">
+                    <img src="assets/profile-11.jpg" alt="profile-11">
+                </div>
+                <div class="name">
+                    <h2>aniket jadhav</h2>
+                    <p>@xyz</p>
+                </div>
+            </div>
+
+            <div class="sidebar">
+
+                <div class="flex active">
+                    <i class="fa-solid fa-house"></i>
+                    <a href="#">home</a >
+                </div>
+
+                <div class="flex">
+                    <i class="fa-solid fa-compass"></i>
+                    <a href="#">explore </a>
+                </div>
+
+                <div class="flex notification">
+                    <i class="fa-regular fa-bell" id="rel2"></i>
+                    <a href="#">notification</a>
+                    <small class="notification-count">5+</small>
+
+
+                        <!-- =================== notification popup ==================== -->
+
+                        <div class="pop">
+                            <div class="pop-head">
+                                <img src="assets/profile-11.jpg" alt="">
+                                <div class="inline">
+                                    <h3>Lorem ipsum dolor sit amet.</h3>
+                                    <p>2 days ago</p>
+                                </div>
+                                <div class="before">
+
+                                </div>
+                            </div>
+                            <div class="pop-head">
+                                <img src="assets/profile-14.jpg" alt="">
+                                <div class="inline">
+                                    <h3>Lorem ips sit amet.</h3>
+                                    <p>1 days ago</p>
+                                </div>
+                            </div>
+                            <div class="pop-head">
+                                <img src="assets/profile-5.jpg" alt="">
+                                <div class="inline">
+                                    <h3>Lorem ir sit amet.</h3>
+                                    <p>2 days ago</p>
+                                </div>
+                            </div>
+                            <div class="pop-head">
+                                <img src="assets/profile-1.jpg" alt="">
+                                <div class="inline">
+                                    <h3>Lorem ipsum dolor sit amet.</h3>
+                                    <p>5 days ago</p>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+
+                <div class="flex message">
+                    <i class="fa-regular fa-message" id="rel"></i>
+                    <small class="message-count">9+</small>
+                    <a href="#">messages </a>
+                </div>
+
+                <div class="flex">
+                    <i class="fa-solid fa-bookmark"></i>
+                    <a href="#">bookmark</a>
+                </div>
+
+                <div class="flex">
+                    <i class="fa-solid fa-chart-line"></i>
+                    <a href="#">analytics</a>
+                </div>
+
+                <div class="flex">
+                    <i class="fa-solid fa-cookie"></i>
+                    <a href="#">theme</a>
+                </div>
+
+                <div class="flex">
+                    <i class="fa-solid fa-gear"></i>
+                    <a href="#">settings</a>
+                </div>
+
+            </div>
+
+            <div class="btn button">create post</div>
+        </div>
+
+        <div class="middle">
+
+            <div class="stories">
+
+                <div class="story1">
+                    <img src="assets/profile-11.jpg" alt="profile-1">
+                    <p>your text</p>
+                </div>
+                <div class="story1 change2">
+                    <img src="assets/profile-3.jpg" alt="profile-15">
+                    <p>your text</p>
+                </div>
+                <div class="story1 change3">
+                    <img src="assets/profile-5.jpg" alt="profile-12">
+                    <p>your text</p>
+                </div>
+                <div class="story1 change4">
+                    <img src="assets/profile-6.jpg" alt="profile-21">
+                    <p>your text</p>
+                </div>
+                <div class="story1 change5">
+                    <img src="assets/profile-3.jpg" alt="profile-122">
+                    <p>your text</p>
+                </div>
+                <div class="story1 change6">
+                    <img src="assets/profile-8.jpg" alt="profile-110">
+                    <p>your text</p>
+                </div>
+
+            </div>
+
+            <div class="search-box2">
+                    <img src="assets/profile-13.jpg" alt="profile-13">
+                    <input type="text" name="" id="create" placeholder="whats on your mind">
+                    <button class="btn">post</button>
+            </div>
+
+            <div class="big-card">
+                <div class="info-head">
+                    <div class="start">
+                        <img src="assets/profile-14.jpg" alt="">
+                        <div class="inline">
+                            <h2>prem gondhale</h2>
+                            <p>japan, 14 min ago</p>
+                        </div>
+                    </div>
+                    <i class="fa-solid fa-ellipsis"></i>
+                </div>
+
+                <div class="info-image">
+                    <img src="assets/feed-3.jpg" alt="">
+                </div>
+
+                <div class="info-icons">
+                    <div class="left-icon">
+                        <i class="fa-solid fa-heart"></i>
+                        <i class="fa-solid fa-comment"></i>
+                        <i class="fa-solid fa-share-nodes"></i>
+                    </div>
+                    <i class="fa-solid fa-bookmark"></i>
+                </div>
+
+                <div class="likes">
+                    <img src="assets/profile-19.jpg" alt="">
+                    <img src="assets/profile-15.jpg" alt="">
+                    <img src="assets/profile-13.jpg" alt="">
+                    <p>liked by <strong>yash atole</strong> and <strong>2,333 others</strong></p>
+                </div>
+
+                <div class="caption">
+                    <p>Lorem ipsum dolor sit. #wow</p>
+                </div>
+
+                <div class="comments">
+                    view all 10 comments 
+                </div>
+            </div>
+
+
+            <div class="big-card">
+                <div class="info-head">
+                    <div class="start">
+                        <img src="assets/profile-12.jpg" alt="">
+                        <div class="inline">
+                            <h2>yash  atole</h2>
+                            <p>new york, 1 min ago</p>
+                        </div>
+                    </div>
+                    <i class="fa-solid fa-ellipsis"></i>
+                </div>
+
+                <div class="info-image">
+                    <img src="assets/feed-1.jpg" alt="">
+                </div>
+
+                <div class="info-icons">
+                    <div class="left-icon">
+                        <i class="fa-solid fa-heart"></i>
+                        <i class="fa-solid fa-comment"></i>
+                        <i class="fa-solid fa-share-nodes"></i>
+                    </div>
+                    <i class="fa-solid fa-bookmark"></i>
+                </div>
+
+                <div class="likes">
+                    <img src="assets/profile-1.jpg" alt="">
+                    <img src="assets/profile-4.jpg" alt="">
+                    <img src="assets/profile-3.jpg" alt="">
+                    <p>liked by <strong>prem gondhale</strong> and <strong>2,333 others</strong></p>
+                </div>
+
+                <div class="caption">
+                    <p>Lorem ipsum dolor sit. #wow</p>
+                </div>
+
+                <div class="comments">
+                    view all 100 comments 
+                </div>
+            </div>
+
+
+            <div class="big-card">
+                <div class="info-head">
+                    <div class="start">
+                        <img src="assets/profile-16.jpg" alt="">
+                        <div class="inline">
+                            <h2>raj gondhale</h2>
+                            <p>japan, 14 min ago</p>
+                        </div>
+                    </div>
+                    <i class="fa-solid fa-ellipsis"></i>
+                </div>
+
+                <div class="info-image">
+                    <img src="assets/feed-6.jpg" alt="">
+                </div>
+
+                <div class="info-icons">
+                    <div class="left-icon">
+                        <i class="fa-solid fa-heart"></i>
+                        <i class="fa-solid fa-comment"></i>
+                        <i class="fa-solid fa-share-nodes"></i>
+                    </div>
+                    <i class="fa-solid fa-bookmark"></i>
+                </div>
+
+                <div class="likes">
+                    <img src="assets/profile-9.jpg" alt="">
+                    <img src="assets/profile-5.jpg" alt="">
+                    <img src="assets/profile-13.jpg" alt="">
+                    <p>liked by <strong>aditya gondhale</strong> and <strong>2,333 others</strong></p>
+                </div>
+
+                <div class="caption">
+                    <p>Lorem ipsum dolor sit. #wow</p>
+                </div>
+
+                <div class="comments">
+                    view all 100 comments 
+                </div>
+            </div>
+
+
+            <div class="big-card">
+                <div class="info-head">
+                    <div class="start">
+                        <img src="assets/profile-10.jpg" alt="">
+                        <div class="inline">
+                            <h2>aniket jadhav</h2>
+                            <p>new jersey, 14 min ago</p>
+                        </div>
+                    </div>
+                    <i class="fa-solid fa-ellipsis"></i>
+                </div>
+
+                <div class="info-image">
+                    <img src="assets/feed-5.jpg" alt="">
+                </div>
+
+                <div class="info-icons">
+                    <div class="left-icon">
+                        <i class="fa-solid fa-heart"></i>
+                        <i class="fa-solid fa-comment"></i>
+                        <i class="fa-solid fa-share-nodes"></i>
+                    </div>
+                    <i class="fa-solid fa-bookmark"></i>
+                </div>
+
+                <div class="likes">
+                    <img src="assets/profile-19.jpg" alt="">
+                    <img src="assets/profile-15.jpg" alt="">
+                    <img src="assets/profile-13.jpg" alt="">
+                    <p>liked by <strong>yash atole</strong> and <strong>2,333 others</strong></p>
+                </div>
+
+                <div class="caption">
+                    <p>Lorem ipsum dolor sit. #wow</p>
+                </div>
+
+                <div class="comments">
+                    view all 100 comments 
+                </div>
+            </div>
+
+        </div>
+
+        <div class="right">
+
+            <div class="right-messages">
+
+                <div class="top flex2">
+                    <h2>messages</h2>
+                    <i class="fa-solid fa-pen-to-square"></i>
+                </div>
+
+                <div class="search-box mt">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="text" name="text" id="search-input" placeholder="search for your messages">
+                </div>
+
+                <div class="primary flex2">
+                    <h2 class="activ">primary</h2>
+                    <h2>general</h2>
+                    <h2 class="red">request(8)</h2>
+                </div>
+
+                <div class="message-box flex2">
+                    <img src="assets/profile-11.jpg" alt="">
+                    <div class="inline">
+                        <h3>aniket jadhav</h3>
+                        <p>just woke up</p>
+                    </div>
+                </div>
+                <div class="message-box flex2">
+                    <img src="assets/profile-18.jpg" alt="">
+                    <div class="inline">
+                        <h3>yash atole</h3>
+                        <p>just woke up</p>
+                    </div>
+                </div>
+                <div class="message-box flex2">
+                    <img src="assets/profile-1.jpg" alt="">
+                    <div class="inline">
+                        <h3>prem gondhale</h3>
+                        <p>just woke up Lorem, ipsum.</p>
+                    </div>
+                </div>
+                <div class="message-box flex2">
+                    <img src="assets/profile-4.jpg" alt="">
+                    <div class="inline">
+                        <h3>raj gondhale</h3>
+                        <p>jus Lorem ipsum dolor sit. woke up</p>
+                    </div>
+                </div>
+                <div class="message-box flex2">
+                    <img src="assets/profile-14.jpg" alt="">
+                    <div class="inline">
+                        <h3>aditya gondhale</h3>
+                        <p>just woke up</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="req">
+                <h2>requests</h2>
+            </div>
+
+            <div class="request-box">
+                <div class="inline-main">
+                    <img src="assets/profile-10.jpg" alt="">
+                    <div class="inline">
+                        <h2>jadhav</h2>
+                        <p>5 mutual</p>
+                    </div>
+                </div>
+                <div class="btns">
+                    <div class="btn2 danger">accept</div>
+                    <div class="btn2">decline</div>
+                </div>
+            </div>
+
+            <div class="request-box">
+                <div class="inline-main">
+                    <img src="assets/profile-1.jpg" alt="">
+                    <div class="inline">
+                        <h2>jadhav</h2>
+                        <p>5 mutual</p>
+                    </div>
+                </div>
+                <div class="btns">
+                    <div class="btn2 danger">accept</div>
+                    <div class="btn2">decline</div>
+                </div>
+            </div>
+
+            <div class="request-box">
+                <div class="inline-main">
+                    <img src="assets/profile-6.jpg" alt="">
+                    <div class="inline">
+                        <h2>jadhav</h2>
+                        <p>5 mutual</p>
+                    </div>
+                </div>
+                <div class="btns">
+                    <div class="btn2 danger">accept</div>
+                    <div class="btn2">decline</div>
+                </div>
+            </div>
+
+            <div class="request-box">
+                <div class="inline-main">
+                    <img src="assets/profile-19.jpg" alt="">
+                    <div class="inline">
+                        <h2>jadhav</h2>
+                        <p>5 mutual</p>
+                    </div>
+                </div>
+                <div class="btns">
+                    <div class="btn2 danger">accept</div>
+                    <div class="btn2">decline</div>
+                </div>
+            </div>
+
+            <div class="request-box">
+                <div class="inline-main">
+                    <img src="assets/profile-9.jpg" alt="">
+                    <div class="inline">
+                        <h2>jadhav</h2>
+                        <p>5 mutual</p>
+                    </div>
+                </div>
+                <div class="btns">
+                    <div class="btn2 danger">accept</div>
+                    <div class="btn2">decline</div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
